@@ -32,4 +32,4 @@ RUN chown -R www-data:www-data /var/www
 EXPOSE 9000
 
 # Start PHP-FPM
-CMD ["php-fpm"]
+CMD ["php-fpm", "-F"]
