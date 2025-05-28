@@ -55,7 +55,7 @@
      Kalkulator Zakat
     </h2>
     <p class="text-sm font-normal text-center text-black mb-4">
-     Hitung zakat mu terlebih dahulu sebelum membayar zakat
+     Hitung zakat mu terle  bih dahulu sebelum membayar zakat
     </p>
     <div class="space-y-1">
      <label class="block text-sm font-normal text-black" for="jenis-logam-1">

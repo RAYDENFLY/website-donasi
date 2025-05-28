@@ -46,6 +46,13 @@ Route::get('/zakat/gold', function () {
 Route::get('/zakat/agricultural', function () {
     return view('zakat.agricultural');
     });
-    
+
+Route::get('/infaq', function (){
+    return view('infaq');
+});
+
+Route::get('wakaf', function (){
+    return view('wakaf');
+    });
 
 require __DIR__.'/auth.php';

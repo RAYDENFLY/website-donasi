@@ -212,103 +212,20 @@
    </div>
   </section>
   <!-- Kalkulator Zakat -->
-  <section class="px-6 md:px-20 max-w-7xl mx-auto py-10">
-   <h3 class="font-semibold text-base md:text-lg text-center mb-1">
-    Kalkulator Zakat
-   </h3>
-   <p class="text-xs md:text-sm text-center mb-6 max-w-mt mx-auto">
-    Hitung kewajiban zakat Anda dengan mudah menggunakan kalkulator ini
-   </p>
-   <div class="flex flex-col md:flex-row bg-white border border-gray-300 rounded-lg overflow-hidden max-w-4xl mx-auto">
-    <div class="bg-[#0089FF] text-white p-6 md:w-1/3 flex flex-col justify-center space-y-4 text-xs md:text-sm">
-     <div class="flex justify-center">
-      <i class="fas fa-calculator text-4xl">
-      </i>
-     </div>
-     <div class="font-semibold">
-      Panduan Zakat
-     </div>
-     <p>
-      Zakat wajib dikeluarkan setiap muslim yang memiliki harta mencapai nisab (setara dengan 85 gram emas) yang telah dimiliki selama satu tahun.
-     </p>
-     <p>
-      Besaran zakat yang dikeluarkan adalah 2.5% dari total harta yang Anda miliki.
-     </p>
-     <p>
-      Masukkan nilai harta Anda pada form di samping untuk menghitung besaran zakat yang perlu dikeluarkan.
-     </p>
-    </div>
-    <form class="p-6 md:w-2/3 space-y-4 text-xs md:text-sm" onsubmit="event.preventDefault(); calculateZakat();">
-     <div>
-      <label class="block mb-2 font-semibold" for="jenisZakat">
-       Jenis Zakat:
-      </label>
-      <select class="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-600" id="jenisZakat">
-      <option>
-        Zakat Maal
-       </option> 
-      <option>
-        Zakat Penghasilan
-       </option>
-       <option>
-        Zakat Perdagangan
-       </option> 
-       <option>
-        Zakat Emas & Perak
-       </option> 
-       <option>
-        Zakat Pertanian
-       </option> 
-      </select>
-     </div>
-     <div>
-      <label class="block mb-2 font-semibold" for="jumlahPendapatan">
-       Jumlah Pendapatan
-      </label>
-      <div class="relative">
-       <span class="absolute left-3 top-2 text-gray-400">
-        Rp
-       </span>
-       <input class="w-full border border-gray-300 rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-600" id="jumlahPendapatan" min="0" placeholder="0" type="number"/>
-      </div>
-     </div>
-     <div>
-      <label class="block mb-2 font-semibold" for="periodePendapatan">
-       Periode Pendapatan
-      </label>
-      <select class="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-600" id="periodePendapatan">
-       <option>
-        Perbulan
-       </option>
-       <option>
-        Pertahun
-       </option>
-      </select>
-     </div>
-     <div class="flex gap-4 mb-2">
-      <button class="bg-[#0089FF] text-white font-semibold rounded-full px-8 py-2 hover:bg-cyan-700 transition" type="submit">
-       Hitung Zakat
-      </button>
-      <button class="border border-[#0089FF] text-cyan-600 font-semibold rounded-full px-8 py-2 hover:bg-cyan-50 transition" id="resetBtn" type="button">
-       Reset
-      </button>
-     </div>
-     <div class="bg-[rgba(0,137,255,0.2)] text-black rounded-md p-3 text-xs md:text-sm" id="hasilZakat">
-      <div class="font-semibold">
-       Hasil Perhitungan Zakat
-      </div>
-      <div>
-       <span id="hasilNominal">
-        Rp. 0
-       </span>
-      </div>
-      <a class="text-[#0089FF] hover:underline inline-block mt-1" href="/zakat">
-       Bayar Zakat Sekarang →
-      </a>
-     </div>
-    </form>
-   </div>
-  </section>
+<section class="bg-[#f0f9ff] text-center py-12 px-6 rounded-xl max-w-7xl mx-auto my-10 shadow-md">
+  <h3 class="text-lg md:text-xl font-bold text-[#0089FF] mb-3">
+    Tunaikan Zakatmu Hari Ini
+  </h3>
+  <p class="text-sm md:text-base text-gray-700 mb-6 max-w-md mx-auto">
+    Mari wujudkan kepedulian dan keberkahan dengan menunaikan zakat. Hitung zakatmu sekarang, dan salurkan dengan mudah.
+  </p>
+  <a href="http://127.0.0.1:8000/zakat" target="_blank"
+     class="inline-block bg-[#0089FF] text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-cyan-700 transition">
+    Hitung & Bayar Zakat
+  </a>
+</section>
+
+
   <!-- Dampak Donasi Anda -->
   <section class="px-6 md:px-20 max-w-7xl mx-auto py-10">
    <h3 class="font-semibold text-base md:text-lg text-center mb-1">
